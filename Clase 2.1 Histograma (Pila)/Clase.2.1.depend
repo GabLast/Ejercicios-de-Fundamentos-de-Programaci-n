@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1558727211 source:c:\users\20170388\desktop\clase 2.1\clase.2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaEstatica.h"
+
+1558727188 c:\users\20170388\desktop\clase 2.1\clase.2.1\pilaestatica.h
+	<stdlib.h>
+
+1558727188 source:c:\users\20170388\desktop\clase 2.1\clase.2.1\pilaestatica.c
+	"pilaEstatica.h"
+
+1558727188 c:\users\20170388\desktop\clase 2.1\clase.2.1\pilaestatica.c
+	"pilaEstatica.h"
+
+1559313315 source:c:\users\last0\desktop\fundamentos de programacion\clase.2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaEstatica.h"
+
+1559313315 c:\users\last0\desktop\fundamentos de programacion\clase.2.1\pilaestatica.h
+	<stdlib.h>
+
+1559313315 source:c:\users\last0\desktop\fundamentos de programacion\clase.2.1\pilaestatica.c
+	<stdio.h>
+	"pilaEstatica.h"
+
+1559313820 source:c:\users\last0\desktop\fundamentos de programacion\clase.2.1 histograma\pilaestatica.c
+	<stdio.h>
+	"pilaEstatica.h"
+
+1559313315 c:\users\last0\desktop\fundamentos de programacion\clase.2.1 histograma\pilaestatica.h
+	<stdlib.h>
+
+1559314543 source:c:\users\last0\desktop\fundamentos de programacion\clase.2.1 histograma\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaEstatica.h"
+

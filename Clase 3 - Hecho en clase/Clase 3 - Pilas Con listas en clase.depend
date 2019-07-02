@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1560870690 source:c:\users\20170388\desktop\clases\clase 3 - pilas con listas en clase\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilaEnlazada.h"
+
+1560870559 source:c:\users\20170388\desktop\clases\clase 3 - pilas con listas en clase\pilaenlazada.c
+	<stdlib.h>
+	"PilaEnlazada.h"
+
+1560870547 c:\users\20170388\desktop\clases\clase 3 - pilas con listas en clase\pilaenlazada.h
+	<stdlib.h>
+
+1562039511 source:c:\users\last0\desktop\fundamentos de programacion\clase 3 - hecho en clase\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilaEnlazada.h"
+
+1560858738 c:\users\last0\desktop\fundamentos de programacion\clase 3 - hecho en clase\pilaenlazada.h
+	<stdlib.h>
+
+1562039548 source:c:\users\last0\desktop\fundamentos de programacion\clase 3 - hecho en clase\pilaenlazada.c
+	<stdlib.h>
+	"PilaEnlazada.h"
+

@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1560732558 source:c:\users\last0\desktop\fundamentos de programacion\clase 3 listas cola\colaconlista.c
+	<stdlib.h>
+	"ColaConLista.h"
+
+1560731254 c:\users\last0\desktop\fundamentos de programacion\clase 3 listas cola\colaconlista.h
+	<stdlib.h>
+
+1560732710 source:c:\users\last0\desktop\fundamentos de programacion\clase 3 listas cola\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.c"
+	"ColaConLista.h"
+
+1560731913 c:\users\last0\desktop\fundamentos de programacion\clase 3 listas cola\colaconlista.c
+	<stdlib.h>
+	"ColaConLista.h"
+
+1560732558 source:c:\users\last0\desktop\clase 3 listas cola\colaconlista.c
+	<stdlib.h>
+	"ColaConLista.h"
+
+1560731254 c:\users\last0\desktop\clase 3 listas cola\colaconlista.h
+	<stdlib.h>
+
+1560732710 source:c:\users\last0\desktop\clase 3 listas cola\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.c"
+	"ColaConLista.h"
+

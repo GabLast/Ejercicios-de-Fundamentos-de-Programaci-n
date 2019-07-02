@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1560733738 source:c:\users\last0\desktop\clase 3 listas - pila\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilaConListas.h"
+
+1560733624 c:\users\last0\desktop\clase 3 listas - pila\pilaconlistas.h
+	<stdlib.h>
+
+1560733624 source:c:\users\last0\desktop\clase 3 listas - pila\pilaconlistas.c
+	<stdlib.h>
+	"PilaConListas.h"
+

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1558479622 source:c:\users\last0\desktop\fundamentos de programacion\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"versionPuntero.h"
+	"versionMatriz.h"
+
+1558439628 c:\users\last0\desktop\fundamentos de programacion\ejercicio 2\versionpuntero.h
+
+1558439628 c:\users\last0\desktop\fundamentos de programacion\ejercicio 2\versionmatriz.h
+
+1558439626 source:c:\users\last0\desktop\fundamentos de programacion\ejercicio 2\versionmatriz.c
+	<stdio.h>
+	<stdlib.h>
+
+1558439628 source:c:\users\last0\desktop\fundamentos de programacion\ejercicio 2\versionpuntero.c
+	<stdio.h>
+	<stdlib.h>
+

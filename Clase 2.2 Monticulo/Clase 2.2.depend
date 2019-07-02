@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1559053249 source:c:\users\20170388\desktop\clases\clase 2.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"monticulo.h"
+
+1559054671 c:\users\20170388\desktop\clases\clase 2.2\monticulo.h
+	<stdlib.h>
+
+1559309729 source:c:\users\last0\desktop\fundamentos de programacion\clase 2.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"monticulo.h"
+
+1559045176 c:\users\last0\desktop\fundamentos de programacion\clase 2.2\monticulo.h
+	<stdlib.h>
+
+1559309777 source:c:\users\last0\desktop\fundamentos de programacion\clase 2.2\monticulo.c
+	<stdlib.h>
+	<math.h>
+	"monticulo.h"
+
+1559309777 source:c:\users\last0\desktop\fundamentos de programacion\clase 2.2 monticulo\monticulo.c
+	<stdlib.h>
+	<math.h>
+	"monticulo.h"
+
+1559045176 c:\users\last0\desktop\fundamentos de programacion\clase 2.2 monticulo\monticulo.h
+	<stdlib.h>
+
+1560971608 source:c:\users\last0\desktop\fundamentos de programacion\clase 2.2 monticulo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"monticulo.h"
+

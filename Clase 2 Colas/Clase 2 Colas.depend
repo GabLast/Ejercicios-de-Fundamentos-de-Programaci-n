@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1559655521 source:c:\users\20170388\desktop\clases\clase 2.colas\clase 2 colas\colas.c
+	<stdlib.h>
+	"Colas.h"
+
+1559213562 c:\users\20170388\desktop\clases\clase 2.colas\clase 2 colas\colas.h
+	<stdlib.h>
+
+1559659357 source:c:\users\20170388\desktop\clases\clase 2.colas\clase 2 colas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Colas.h"
+	"conio.c"
+
+1286690350 c:\users\20170388\desktop\clases\clase 2.colas\clase 2 colas\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\20170388\desktop\clases\clase 2.colas\clase 2 colas\conio.h
+	<stdio.h>
+
+1559648808 source:c:\users\last0\desktop\clase 2.colas\clase 2 colas\colas.c
+	<stdlib.h>
+	"Colas.h"
+
+1559648808 c:\users\last0\desktop\clase 2.colas\clase 2 colas\colas.h
+	<stdlib.h>
+
+1559648810 source:c:\users\last0\desktop\clase 2.colas\clase 2 colas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Colas.h"
+	"conio.c"
+
+1559648808 c:\users\last0\desktop\clase 2.colas\clase 2 colas\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1559648810 c:\users\last0\desktop\clase 2.colas\clase 2 colas\conio.h
+	<stdio.h>
+
