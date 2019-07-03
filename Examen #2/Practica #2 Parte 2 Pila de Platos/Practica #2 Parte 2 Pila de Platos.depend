@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1562077995 source:c:\users\20170388\desktop\examen #2\practica #2 parte 2 pila de platos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaDePlatos.h"
+
+1562077995 c:\users\20170388\desktop\examen #2\practica #2 parte 2 pila de platos\piladeplatos.h
+	<stdlib.h>
+
+1562078012 source:c:\users\20170388\desktop\examen #2\practica #2 parte 2 pila de platos\piladeplatos.c
+	<stdlib.h>
+	"pilaDePlatos.h"
+

@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1561643016 source:c:\users\20170388\desktop\clases\clase 4 - peliculas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"listaDobleCircular.h"
+
+1561472454 source:c:\users\20170388\desktop\clases\clase 4 - peliculas\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1561474433 source:c:\users\20170388\desktop\clases\clase 4 - peliculas\listadoblecircular.c
+	<stdlib.h>
+	"listaDobleCircular.h"
+
+1561472366 c:\users\20170388\desktop\clases\clase 4 - peliculas\listadoblecircular.h
+	<stdlib.h>
+

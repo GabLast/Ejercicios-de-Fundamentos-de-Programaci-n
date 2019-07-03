@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1562077826 source:c:\users\20170388\desktop\examen #2\practica #2 parte 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"particionLista.h"
+
+1562076329 c:\users\20170388\desktop\examen #2\practica #2 parte 1\particionlista.h
+	<stdlib.h>
+
+1562076329 source:c:\users\20170388\desktop\examen #2\practica #2 parte 1\particionlista.c
+	<stdlib.h>
+	"particionLista.h"
+
