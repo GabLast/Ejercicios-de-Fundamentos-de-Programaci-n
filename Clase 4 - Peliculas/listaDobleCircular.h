@@ -2,7 +2,6 @@
 #ifndef _ListaDobleCirc
 #define _ListaDobleCirc
 
-
 typedef struct
 {
     int id;
@@ -11,6 +10,7 @@ typedef struct
     char *clasificacion;
     float calificacion;
     float duracion;
+    int cantidadGeneros;
     char **generos;
     char *sinopsis;
 }Pelicula;
@@ -29,13 +29,13 @@ typedef struct
 }Lista;
 
 Lista* InicializarLista();
-void agregarPeli(Lista*, Pelicula);
-void eliminarPeli(Lista*, int);
-void insertarPeli(Lista* , Pelicula, int);
-Nodo* buscarPeli(Lista*, int);
-Lista* ordenarPeli(Lista*);
-
-
+void agregarPeli(Pelicula, Nodo*);
+void eliminarPeli(Lista*, Nodo*);
+Nodo* buscarPorID(Lista *, int );
+Nodo* buscarPeliPorAnyo(Lista*, int);
+void ordenarPeliConSeleccion(Lista*);
+Nodo* copiarNodo(Nodo*);
+void intercambiar(Nodo *, Nodo *);
 
 
 

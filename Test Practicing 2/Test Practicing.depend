@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1562043775 source:c:\users\last0\desktop\fundamentos de programacion\test practicing\listaenlazada.c
+	<stdlib.h>
+	"ListaEnlazada.h"
+
+1562043775 c:\users\last0\desktop\fundamentos de programacion\test practicing\listaenlazada.h
+	<stdlib.h>
+
+1562043921 source:c:\users\last0\desktop\fundamentos de programacion\test practicing\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaEnlazada.h"
+

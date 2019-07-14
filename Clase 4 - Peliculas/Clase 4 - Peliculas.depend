@@ -22,3 +22,52 @@
 1561472366 c:\users\20170388\desktop\clases\clase 4 - peliculas\listadoblecircular.h
 	<stdlib.h>
 
+1561632906 source:c:\users\20170388\desktop\clase 4 - peliculas - old\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1562853592 source:c:\users\20170388\desktop\clase 4 - peliculas - old\listadoblecircular.c
+	<stdlib.h>
+	"listaDobleCircular.h"
+
+1562853017 c:\users\20170388\desktop\clase 4 - peliculas - old\listadoblecircular.h
+	<stdlib.h>
+
+1562853611 source:c:\users\20170388\desktop\clase 4 - peliculas - old\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"listaDobleCircular.h"
+
+1563074786 source:c:\users\last0\desktop\fundamentos de programacion\clase 4 - peliculas\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1563126579 source:c:\users\last0\desktop\fundamentos de programacion\clase 4 - peliculas\listadoblecircular.c
+	<stdlib.h>
+	"listaDobleCircular.h"
+
+1563124114 c:\users\last0\desktop\fundamentos de programacion\clase 4 - peliculas\listadoblecircular.h
+	<stdlib.h>
+
+1563128333 source:c:\users\last0\desktop\fundamentos de programacion\clase 4 - peliculas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"listaDobleCircular.h"
+
+1286690424 c:\users\last0\desktop\fundamentos de programacion\clase 4 - peliculas\conio.h
+	<stdio.h>
+
