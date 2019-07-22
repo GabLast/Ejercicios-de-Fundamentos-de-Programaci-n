@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1563766707 source:c:\users\last0\desktop\fundamentos de programacion\algoritmos de ordenacion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
