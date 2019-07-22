@@ -16,6 +16,12 @@ void mergeSortRecursivo(int [], int, int);
 void Merge(int [], int, int, int[], int, int[], int);
 void mergeSortV2(int [], int );
 void MergeV2(int [], int [], int , int [], int );
+void quickSort(int [], int);
+void quickSortRecursivo(int [], int, int);
+int particionar(int [], int, int);
+void Swap(int [], int, int);
+void SwapPunteros(int *, int *);
+
 
 int main()
 {
@@ -36,6 +42,7 @@ int main()
 
     mergeSortRecursivo(arreglo, 0, n-1);
     //mergeSortV2(arreglo, n);
+    //quickSort(arreglo, n);
 
     printf("\nValores Ordenados: ");
     mostrarValores(arreglo, n);
@@ -233,3 +240,62 @@ void MergeV2(int arreglo[], int izquierdo[], int tamanoIzquierdo, int derecho []
         arreglo[k++] = derecho[j++];
 
 }
+
+void quickSort(int arreglo[], int tamano)
+{
+    quickSortRecursivo(arreglo, 0, tamano-1);
+}
+
+void quickSortRecursivo(int arreglo[], int limInferior, int limSuperior)
+{
+    int indicePivote;
+
+    //if(limInferior >= limSuperior)
+    //    return;
+    if(limInferior < limSuperior)
+    {
+        indicePivote = particionar(arreglo, limInferior, limSuperior);
+        quickSortRecursivo(arreglo, limInferior, indicePivote-1);
+        quickSortRecursivo(arreglo, indicePivote+1, limSuperior);
+    }
+
+}
+
+
+int particionar(int arreglo[], int limInferior, int limSuperior)
+{
+    int pivote = arreglo[limInferior];
+    int i = limInferior + 1;
+    int j = i;
+
+    for(; i <= limSuperior; i++)
+    {
+        if(arreglo[i] < pivote)
+        {
+            Swap(arreglo, i, j);
+            j++;
+        }
+    }
+
+    SwapPunteros(&arreglo[limInferior], &arreglo[j-1]);
+
+    return j-1;
+}
+
+
+void Swap(int arreglo[], int indiceInicio, int indiceFinal)
+{
+    int burbuja;
+    burbuja = arreglo[indiceInicio];
+    arreglo[indiceInicio] = arreglo[indiceFinal];
+    arreglo[indiceFinal] = burbuja;
+}
+
+void SwapPunteros(int *a, int *b)
+{
+    int *burbuja = (int*)malloc(sizeof(int));
+    *burbuja = *a;
+    *a = *b;
+    *b = *burbuja;
+}
+
