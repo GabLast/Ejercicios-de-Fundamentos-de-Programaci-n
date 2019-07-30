@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1564452240 source:c:\users\last0\desktop\fundamentos de programacion\test practicing 3\lists.c
+	<stdlib.h>
+	"Lists.h"
+
+1564452285 source:c:\users\last0\desktop\fundamentos de programacion\test practicing 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lists.h"
+
+1564448312 c:\users\last0\desktop\fundamentos de programacion\test practicing 3\lists.h
+	<stdlib.h>
+
