@@ -68,9 +68,8 @@ void heapifyUP(Monticulo *heap, int indice)
         return;
 
     int indicePadre = IndicePadre(indice);
-    if(heap->esMin && *(heap->elementos+indicePadre) < *(heap->elementos+indice))
-        return;
-
+     if(heap->esMin && *(heap->elementos+indicePadre) < *(heap->elementos+indice))
+       return;
     if(!heap->esMin && *(heap->elementos+indicePadre) > *(heap->elementos+indice))
         return;
 
@@ -109,19 +108,21 @@ void heapifyDOWN(Monticulo *heap, int indice)
 
     //Evaluando indice menor con min heaps
     int indiceDerecho = IndiceHijoDerecho(heap, indice);
-    if(heap->esMin && indiceDerecho >= 0 && *(heap->elementos+indiceMenor) > *(heap->elementos+indiceDerecho))
+    if(heap->esMin && indiceDerecho >= 0 &&
+       *(heap->elementos+indiceMenor) > *(heap->elementos+indiceDerecho))
         indiceMenor = indiceDerecho;
 
-    //segundo axioma del min heap
+    // Segundo axioma para el Min Heap:
     if(heap->esMin && *(heap->elementos+indice) < *(heap->elementos+indiceMenor))
         return;
 
-    //evaluando indice menor con Max heaps
-    if(!heap->esMin && indiceDerecho >= 0 && *(heap->elementos+indiceMenor) > *(heap->elementos+indiceDerecho))
+    // Evaluando índice menor con Max Heaps:
+    if(!heap->esMin && indiceDerecho >= 0 &&
+       *(heap->elementos+indiceMenor) < *(heap->elementos+indiceDerecho))
         indiceMenor = indiceDerecho;
 
-    //segundo axioma del max heap
-    if(!heap->esMin && *(heap->elementos+indice) < *(heap->elementos+indiceMenor))
+    // Segundo axioma para el Max Heap:
+    if(!heap->esMin && *(heap->elementos+indice) > *(heap->elementos+indiceMenor))
         return;
 
     swapElementos(heap->elementos+indice, heap->elementos+indiceMenor);
